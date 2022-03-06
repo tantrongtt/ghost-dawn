@@ -6,28 +6,32 @@
     left: 0;
     z-index: 90;
     display: none;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     opacity: 0;
     transition: opacity 0.2s var(--animation-base);
     pointer-events: none;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
 }
 
 .modal {
     overflow: hidden;
     margin: 9rem auto 0;
     background-color: var(--white-color);
-    border-radius: 5px;
+    border-radius: 8px;
     transition: transform 0.2s var(--animation-base);
     transform: translateY(-10px);
 }
 
 .modal-search {
     width: 500px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 25px 30px;
+    border: 1px solid var(--light-gray-color);
 }
 
 .modal-search .form-wrapper {
-    border-bottom: 1px solid var(--light-gray-color);
+    border: 1px solid var(--light-gray-color);
+    margin: 2rem 1.5rem 1.5rem;
+    border-radius: 6px;
 }
 
 .modal-close {

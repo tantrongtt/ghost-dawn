@@ -58,7 +58,7 @@ textarea {
     border: 0;
     color: var(--white-color);
     background-color: var(--brand-color);
-    border-radius: 0 4px 4px 0;
+    border-radius: 4px;
     cursor: pointer;
 }
 
